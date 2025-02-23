@@ -69,7 +69,7 @@ nav{
 }
 #intro{
     margin: 40px 25px;
-    font-size: 1.5rem;
+    font-size: 20px;
     font-family: "JetBrains Mono", serif;
 }
 .fa-brands{
@@ -115,8 +115,13 @@ color:black
         font-size: 1rem;
     }
     #intro{font-size: 0.8rem;}
-    .arrow1{padding: 0.6rem 2.2rem;}
-    #proj{height: 140px;}
+    #page1{display:inline-block;
+           justify-content:center;
+          }
+    .arrow1{padding: 0.6rem 2.5rem;}
+    #proj{height: 140px;
+          width:auto;
+         }
     #pic{
         width: 75px;
         height: 95px;
