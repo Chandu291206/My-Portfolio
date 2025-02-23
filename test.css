@@ -112,15 +112,18 @@ color:black
 }
 @media screen and (max-width:400px){
     nav{
-        font-size: 1rem;
+        font-size: 0.8rem;
     }
-    #intro{font-size: 0.8rem;}
+    #intro{font-size: 0.5rem;}
     #page1{display:inline-block;
-           justify-content:center;
           }
-    .arrow1{padding: 0.6rem 2.5rem;}
-    #proj{height: 140px;
+    .arrow1{padding: 0.6rem 2.5rem;
+            display:flex;
+            flex-direction: row;
+           }
+    #proj{height: 100px;
           width:auto;
+          margin-left:10px;
          }
     #pic{
         width: 75px;
@@ -130,7 +133,7 @@ color:black
         z-index: index -1;
         border-radius: 5px;
         margin-top: 15px;
-        margin-left: 3px;
+        margin-left: 25px;
     }
     #me{
         height:82px;
